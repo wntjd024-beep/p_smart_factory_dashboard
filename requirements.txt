@@ -1,15 +1,12 @@
-requirements
 # === Core Dashboard Dependencies ===
-streamlit>=1.37.0
-pandas>=2.0.0
-numpy>=1.24.0
-matplotlib>=3.7.0
-plotly>=5.20.0
+streamlit
+pandas
+numpy
+matplotlib
+plotly
 
 # === Machine Learning & SHAP ===
-scikit-learn>=1.3.0
-lightgbm>=4.0.0
-shap>=0.44.0
-
-# === Optional / Compatibility ===
-pathlib
+scikit-learn
+# LightGBM: prebuilt wheel 설치 가능한 환경에서만 사용
+lightgbm==4.1.0
+shap==0.44.0
